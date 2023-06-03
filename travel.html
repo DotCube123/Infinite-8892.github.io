@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="eFiles/travelstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxs-tree-alt icon' ></i>
+            <div class="logo_name">NaTravel
+            </div>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+          <li>
+              <i class='bx bx-search' ></i>
+             <input type="text" placeholder="Search...">
+             <span class="tooltip">Search</span>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class='bx bx-grid-alt'></i>
+              <span class="links_name">Home</span>
+            </a>
+             <span class="tooltip">Home</span>
+          </li>
+          <li>
+           <a href="travel.html">
+             <i class='bx bx-cart-alt' ></i>
+             <span class="links_name">Travel</span>
+           </a>
+           <span class="tooltip">Travel</span>
+         </li>
+         <li>
+           <a href="contactus.html">
+             <i class='bx bx-user' ></i>
+             <span class="links_name">Contact us</span>
+           </a>
+           <span class="tooltip">Contact us</span>
+         </li>
+         <!--Profile-->
+         <li class="profile">
+          <div class="profile-details">
+            <img src="profile.jpg" alt="profileImg">
+            <div class="name_job">
+              <div class="name">Zohrab Aliyev</div>
+            </div>
+          </div>
+          <i class='bx bx-log-out' id="log_out" ></i>
+      </li>
+        </ul>
+      </div>
+      <section class="home-section">
+        <video autoplay muted loop id="myVideo">
+          <source src="eFiles/backgroundSrc.webm" type="video/webm">
+        </video>
+        <div class="bar">
+          <h1 class="title">You wish, we realize it</h1>
+          <h2 class="subtitle">Discover the world</h1>
+          <div class="search-bar">
+            <form>
+              <div class="location-input">
+                <label>Location</label>
+                <input type="text" placeholder="Where are you going?">
+              </div>
+              <div>
+                <label>Check In</label>
+                <input type="text" placeholder="Add Date">
+              </div>
+              <div>
+                <label>Check Out</label>
+                <input type="text" placeholder="Add Date">
+              </div>
+              <div>
+                <label>Guest</label>
+                <input type="text" placeholder="Add Guest">
+              </div>
+              <button type="submit"><i class='bx bx-search-alt-2 buticon'></i></button>
+            </form>
+          </div>
+        </div>
+          <h1 class="divider-title"><span>Try out popular options</span></h1>
+        <div class="container">
+          <!--image row start-->
+          <div class="row">
+            <!--image card start-->
+            <div class="image">
+              <img src="eFiles/Images/Fire Temple.jpg" alt="">
+              <div class="details">
+                <h2> <span>Fire Temple</span></h2>
+                <p>Experience the captivating mystique of Fire Temple Baku, an ancient sanctuary in Azerbaijan's capital.s</p>
+                <div class="more">
+                  <a href="#" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="eFiles/Images/gabala.jpg" alt="">
+              <div class="details">
+                <h2> <span>Gabala</span></h2>
+                <p>Escape to the picturesque paradise of Gabala, nestled amidst the majestic mountains of Azerbaijan.</p>
+                <div class="more">
+                  <a href="#" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="eFiles/Images/gobustan.jpg" alt="">
+              <div class="details">
+                <h2> <span>Gobustan</span></h2>
+                <p>Embark on a captivating journey through time in Gobustan, Azerbaijan's archaeological gem.</p>
+                <div class="more">
+                  <a href="#" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+          </div>
+          <!--image row end-->
+          <!--image row start-->
+          <div class="row">
+            <!--image card start-->
+            <div class="image">
+              <img src="eFiles/Images/oldbaku.jpg" alt="">
+              <div class="details">
+                <h2> <span>Old Baku</span></h2>
+                <p>Step back in time and wander the enchanting streets of Old Baku, where history and modernity intertwine.</p>
+                <div class="more">
+                  <a href="#" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="eFiles/Images/shahdag.jpg" alt="">
+              <div class="details">
+                <h2> <span>Shahdag Skii</span></h2>
+                <p>Experience the thrill of winter wonderland at Shahdag Ski Resort, Azerbaijan's premier ski destination.</p>
+                <div class="more">
+                  <a href="#" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="eFiles/Images/Shirvan.jpg " alt="">
+              <div class="details">
+                <h2> <span>Shirvan Nature</span></h2>
+                <p>Embark on a remarkable journey through the untouched beauty of Shirvan Nature, a hidden gem in Azerbaijan's natural landscape.</p>
+                <div class="more">
+                  <a href="#" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+          </div>
+          <!--image row end-->
+        </div>
+      </section>
+      <script>
+      let sidebar = document.querySelector(".sidebar");
+      let closeBtn = document.querySelector("#btn");
+      let searchBtn = document.querySelector(".bx-search");
+    
+      closeBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("open");
+        menuBtnChange();//calling the function(optional)
+      });
+    
+      searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+        sidebar.classList.toggle("open");
+        menuBtnChange(); //calling the function(optional)
+      });
+    
+      // following are the code to change sidebar button(optional)
+      function menuBtnChange() {
+       if(sidebar.classList.contains("open")){
+         closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+       }else {
+         closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+       }
+      }
+      </script>
+</body>
+</html>

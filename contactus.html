@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="eFiles/style.css">
+    <link rel="stylesheet" href="eFiles/contactusstyle.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>
     <div class="sidebar">
@@ -56,35 +57,51 @@
         </ul>
       </div>
       <section class="home-section">
-        <video autoplay muted loop id="myVideo">
+        <!--<video autoplay muted loop id="myVideo">
           <source src="eFiles/backgroundSrc.webm" type="video/webm">
-        </video>
-        <div class="bar">
-          <h1 class="title">You wish, we realize it</h1>
-          <h2 class="subtitle">Discover the world</h1>
-          <div class="search-bar">
-            <form>
-              <div class="location-input">
-                <label>Location</label>
-                <input type="text" placeholder="Where are you going?">
+        </video>-->
+        <div class="container">
+          <div class="content">
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">Baku, Azerbaijan</div>
+                <div class="text-two">Baku, Azerbaijan</div>
               </div>
-              <div>
-                <label>Check In</label>
-                <input type="text" placeholder="Add Date">
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+994 000 000 00 00</div>
+                <div class="text-two">+994 000 000 00 00</div>
               </div>
-              <div>
-                <label>Check Out</label>
-                <input type="text" placeholder="Add Date">
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">email@service.com</div>
+                <div class="text-two">email@service.com</div>
               </div>
-              <div>
-                <label>Guest</label>
-                <input type="text" placeholder="Add Guest">
+            </div>
+            <div class="right-side">
+              <div class="topic-text">Send us a message</div>
+              <p>Need help? Came to the right place! Write down below requirements and your message.</p>
+            <form action="#">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name">
               </div>
-              <button type="submit"><i class='bx bx-search-alt-2 buticon'></i></button>
+              <div class="input-box">
+                <input type="text" placeholder="Enter your email">
+              </div>
+              <div class="input-box message-box">
+                <textarea placeholder="Enter your message"></textarea>
+              </div>
+              <div class="button">
+                <input type="button" value="Send Now" >
+              </div>
             </form>
           </div>
+          </div>
         </div>
-        
       </section>
       <script>
       let sidebar = document.querySelector(".sidebar");
